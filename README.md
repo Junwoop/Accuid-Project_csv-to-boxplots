@@ -4,7 +4,8 @@ The main purpose of this project is to automate visualization of exported CSV fi
 RanN(Random # generated),	Sample1,	Sample2,	BloodR(Blood relationship),	N(# of genetic marker used for comparison),	PC(Parent-Child),	FS(Full Sibling),
 HS(Half Sibling),	FC(First Cousin),	SC(Second Cousin)
 
-The example value of each column: 1,	K21_46_01,	re_K21_46_02,	P_C,	587,	5.66E+41,	1.76E+26,	3.57E+24,	3.42E+13,	4796.274653
+The example value of each column: 
+1,	K21_46_01,	re_K21_46_02,	P_C,	587,	5.66E+41,	1.76E+26,	3.57E+24,	3.42E+13,	4796.274653
 *29999 more columns
 
 Aim
