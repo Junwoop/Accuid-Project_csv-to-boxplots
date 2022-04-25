@@ -12,7 +12,7 @@ def Accuid_boxplot(csv):
     logval=[] #for new column in dataframe
     for cell in dd['value']:
         if cell !=0:
-            logval.append(np.log10(cell)) #apply log for y axis scaling
+            logval.append(np.log(cell)) #apply log for y axis scaling #used natural log, log10 is not appreciated
         else:
             logval.append(0)
     logval=pd.DataFrame(logval,columns=["newval"]) #convert list to dataframe and assign name
