@@ -9,7 +9,7 @@ The example value of each column:
 *29999 more columns
 
 Aim
-The goal was to find the trend among exported Likelyhood Ratio(LR) value of genetic markers in each blood relationships, and setup a evaluation standard to distinguish between each other.
+The goal was to find the trend among exported Likelyhood Ratio(LR) value of genetic markers in study participants, and setup a evaluation standard to distinguish between each other.
 
 Approach
 Applied Pandas to read each CSV files, Numpy to log-scale P-values, and seaborn,pyplot to generate and visualize boxplot.
